@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utaite Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="">
+</head>
+<body class="bg-gray-100">
+    <!-- ヘッダー -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gray-800">
+                    Utaite Blog
+                </div>
+                <div class="flex space-x-4">
+                    <a href="home.html" class="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.csstext-gray-600 hover:text-gray-800">ホーム</a>
+                    <a href="/page/utaite.html" class="text-gray-600 hover:text-gray-800">歌い手一覧</a>
+                    <a href="/page/sintyaku.html" class="text-gray-600 hover:text-gray-800">新着記事</a>
+                    <a href="/page/contact.html" class="text-gray-600 hover:text-gray-800">お問い合わせ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="container mx-auto px-6 py-8">
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- メインコンテンツエリア -->
+            <div class="lg:w-3/4">
+                <!-- ヒーローセクション -->
+                <section class="bg-white rounded-lg shadow-md p-8 mb-8">
+                    <h1 class="text-4xl font-bold text-gray-800 mb-4">歌い手の世界へようこそ</h1>
+                    <p class="text-gray-600 mb-6">最新の歌い手情報！ファンサイトと情報サイトを兼ね備えたブログサイトです</p>
+                    <button class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300">
+                        記事を読む
+                    </button>
+                </section>
+
+                <!-- 最新記事セクション -->
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">最新記事</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- 記事カード1 -->
+                        <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="https://via.placeholder.com/400x250" alt="記事画像" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">人気歌い手の新曲リリース</h3>
+                                <p class="text-gray-600 mb-4">新曲の制作秘話や、歌い手の想いをインタビュー形式でお届けします。</p>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <span class="mr-4"><i class="far fa-calendar"></i> 2024/03/20</span>
+                                    <span><i class="far fa-user"></i> 編集部</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- 記事カード2 -->
+                        <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <img src="https://via.placeholder.com/400x250" alt="記事画像" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">歌い手イベントレポート</h3>
+                                <p class="text-gray-600 mb-4">先日開催された歌い手イベントの様子を写真と共にレポートします。</p>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <span class="mr-4"><i class="far fa-calendar"></i> 2024/03/18</span>
+                                    <span><i class="far fa-user"></i> 編集部</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- 歌い手一覧セクション -->
+                <section>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">人気歌い手</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <!-- 歌い手カード -->
+                        <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                            <img src="https://yt3.googleusercontent.com/vaJkcHf4SNNZLZGLXtaPDYTXt5qUXtzhmxFr5lGxMqZhZxMlJdeAuD4rjndXgC4kQQ3_obYg=s900-c-k-c0x00ffffff-no-rj" alt="歌い手画像" class="w-24 h-24 rounded-full mx-auto mb-3">
+                            <h3 class="font-semibold text-gray-800">歌い手名</h3>
+                            <p class="text-sm text-gray-600">活動ジャンル</p>
+                        </div>
+                        <!-- 他の歌い手カードも同様に追加 -->
+                    </div>
+                </section>
+            </div>
+
+            <!-- サイドバー -->
+            <div class="lg:w-1/4">
+                <!-- 執筆者情報 -->
+                <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">執筆者情報</h2>
+                    <div class="flex items-center mb-4">
+                        <img src="/image/download20250500124404.png" alt="執筆者画像" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-800">祐介</h3>
+                            <p class="text-sm text-gray-600">メインライター、管理人</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">
+                        歌い手が大好きな、一般学生。今でもオタクを続けている
+                    </p>
+                    <div class="flex space-x-3">
+                        <a href="#" class="text-gray-400 hover:text-gray-600"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-gray-600"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </section>
+
+                <!-- カテゴリー -->
+                <section class="bg-white rounded-lg shadow-md p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">カテゴリー</h2>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-gray-800">
+                                <span>歌い手情報</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm">12</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-gray-800">
+                                <span>新歌い手情報</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm">8</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-gray-800">
+                                <span>新情報れぽーと</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm">15</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-gray-800">
+                                <span>コラボ情報</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm">10</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center justify-between text-gray-600 hover:text-gray-800">
+                                <span>卒業情報</span>
+                                <span class="bg-gray-100 text-gray-600 px-2 py-1 rounded-full text-sm">6</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Utaite Blog</h3>
+                    <p class="text-gray-400">歌い手の情報を発信するメディアサイト</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    <p><a href="/page/info.html">このサイトについて</a></p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Utaite Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
